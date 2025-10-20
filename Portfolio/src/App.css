@@ -5,9 +5,35 @@
   color: black;
 }
 
+body{
+  transition: smooth;
+}
+
 .navagation{
-  border: 1px solid black;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: 10vh;
+  height: 10dvh;
+  width: 100vw;
+  background-color: black;
+}
+.logo-container{
+  margin-left: 2%;
+}
+.logo{
+  font-size: 3em;
+  background-color: black;
+  color: white;
+}
+
+.navagation-paths{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2%;
+  height: 7vh;
+  height: 7dvh;
+  width: 40vw;
+  border-radius: 10px;
 }
