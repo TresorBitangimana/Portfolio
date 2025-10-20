@@ -3,6 +3,9 @@
   padding: 0;
   background-color: white;
   color: black;
+  --primary-color: rgb(68, 14, 107);
+  --second-color: rgb(38, 10, 58);
+
 }
 
 body{
@@ -16,15 +19,16 @@ body{
   height: 10vh;
   height: 10dvh;
   width: 100vw;
-  background-color: black;
+  background-color: var(--second-color);
 }
 .logo-container{
   margin-left: 2%;
 }
 .logo{
   font-size: 3em;
-  background-color: black;
+  background-color: var(--second-color);
   color: white;
+  text-shadow: -1px -1px 2px white;
 }
 
 .navagation-paths{
@@ -37,3 +41,11 @@ body{
   width: 40vw;
   border-radius: 10px;
 }
+
+.paths{
+  font-size: 1.5em;
+  margin-right: 5%;
+  background: none;
+  color: var(--second-color);
+}
+

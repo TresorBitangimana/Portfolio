@@ -2,4 +2,9 @@
 
 .contacts{
     display: flex;
+    font-size: 2em;
+    align-items: center;
+    justify-content: space-between;
+    width: 15vw;
+    background: none;
 }

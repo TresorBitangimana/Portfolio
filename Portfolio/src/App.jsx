@@ -22,9 +22,9 @@ function App() {
           <Link className="paths" to="/">Home</Link>
           <Link className="paths" to="/Projects/Projects">Projects</Link>
           <Link className="paths" to="/About/About">About</Link>
-        </div>
-        <div className="contacts-container" id="contacts-container">
+          <div className="contacts-container" id="contacts-container">
             <Contacts />
+          </div>
         </div>
       </nav>
 
