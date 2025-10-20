@@ -4,6 +4,7 @@ import './App.css'
 import Home from './Home/Home';
 import Projects from "./Projects/Projects"
 import About from './About/About';
+import Contacts from './Contacts/Contacts';
 
 
 import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
@@ -21,6 +22,9 @@ function App() {
           <Link className="paths" to="/">Home</Link>
           <Link className="paths" to="/Projects/Projects">Projects</Link>
           <Link className="paths" to="/About/About">About</Link>
+        </div>
+        <div className="contacts-container" id="contacts-container">
+            <Contacts />
         </div>
       </nav>
 
