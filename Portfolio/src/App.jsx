@@ -34,11 +34,9 @@ function App() {
         <Route path="/About/About" element={<About />}>About</Route>
       </Routes>
 
-      <footer>
-        <div className="media-contacts-container" id="media-contacts-container">
-          <Contacts />
-        </div>
-      </footer>
+      <div className="media-contacts-container" id="media-contacts-container">
+        <Contacts />
+      </div>
     </Router>
 
     

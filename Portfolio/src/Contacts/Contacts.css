@@ -5,9 +5,8 @@
     font-size: 2em;
     align-items: center;
     justify-content: space-between;
-    width: 15vw;
+    width: auto;
     background: none;
-    margin-right: 2vw;
 }
 
 .contact{

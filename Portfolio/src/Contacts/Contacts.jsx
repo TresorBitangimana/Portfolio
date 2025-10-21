@@ -13,10 +13,7 @@ function Contacts(){
             <div className="contact"><SiHandshake /></div>
             <div className="contact"><FaInstagram /></div>
             <div className="contact"><FaFacebookF /></div>
-            
-            
-            
-            
+
         </div>           
     );
 }

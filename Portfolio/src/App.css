@@ -27,6 +27,7 @@ body{
 }
 .logo{
   font-size: 3em;
+  font-size: clamp(2em, 3vw, 3em);
   background-color: var(--second-color);
   color: white;
   text-shadow: -1px -1px 2px white;
@@ -58,4 +59,25 @@ body{
   color: var(--primary-color);
   border-color: var(--primary-color);
   background-color: var(--hover-color);
+}
+
+.media-contacts-container{
+  display: none;
+  position: fixed;
+  bottom: 0;
+  width: 50vw;
+  left: 25%;
+  border: 1px solid black;
+  height: 5vh;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+@media screen and (max-width: 1200px){
+  .contacts-container{
+    display: none;
+  }
+  .media-contacts-container{
+    display: block;
+  }
 }
