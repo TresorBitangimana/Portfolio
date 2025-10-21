@@ -7,4 +7,20 @@
     justify-content: space-between;
     width: 15vw;
     background: none;
+    margin-right: 2vw;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 6px 15px;
+}
+.contact:hover{
+    cursor: pointer;
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+    background-color: var(--hover-color);
 }

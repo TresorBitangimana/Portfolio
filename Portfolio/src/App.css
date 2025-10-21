@@ -5,6 +5,7 @@
   color: black;
   --primary-color: rgb(68, 14, 107);
   --second-color: rgb(38, 10, 58);
+  --hover-color:rgba(68, 14, 107, 0.077);
 
 }
 
@@ -38,7 +39,8 @@ body{
   margin-right: 2%;
   height: 7vh;
   height: 7dvh;
-  width: 40vw;
+  width: auto;
+  padding: 0 6%;
   border-radius: 10px;
 }
 
@@ -47,5 +49,13 @@ body{
   margin-right: 5%;
   background: none;
   color: var(--second-color);
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 6px;
 }
 
+.paths:hover{
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+  background-color: var(--hover-color);
+}

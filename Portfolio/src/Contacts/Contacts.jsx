@@ -9,10 +9,14 @@ import { SiHandshake } from "react-icons/si";
 function Contacts(){
     return(
         <div className="contacts" id="contacts">
-            <FaLinkedin />
-            <SiHandshake />
-            <FaInstagram />
-            <FaFacebookF />
+            <div className="contact"><FaLinkedin /></div>
+            <div className="contact"><SiHandshake /></div>
+            <div className="contact"><FaInstagram /></div>
+            <div className="contact"><FaFacebookF /></div>
+            
+            
+            
+            
         </div>           
     );
 }

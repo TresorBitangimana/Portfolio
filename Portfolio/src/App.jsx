@@ -28,13 +28,20 @@ function App() {
         </div>
       </nav>
 
-
       <Routes>
         <Route path="/" element={<Home />}>Home</Route>
         <Route path="/Projects/Projects" element={<Projects />}>Projects</Route>
         <Route path="/About/About" element={<About />}>About</Route>
       </Routes>
+
+      <footer>
+        <div className="media-contacts-container" id="media-contacts-container">
+          <Contacts />
+        </div>
+      </footer>
     </Router>
+
+    
   )
 }
 
