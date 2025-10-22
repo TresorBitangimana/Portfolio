@@ -69,8 +69,69 @@ body{
   left: 25%;
   border: 1px solid black;
   height: 5vh;
+  height: 5dvh;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+}
+
+.more-options-button{
+  display: none;
+  height: 50px;
+  width: 50px;
+  margin-right: 2%;
+  border-radius: 5px;
+  background: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.span-container:hover{
+  cursor: pointer;
+}
+
+.span-container span{
+  height: 10px;
+  width: 40px;
+  border-bottom: 3px solid white;
+  display: block;
+  background-color: var(--second-color);
+}
+
+.media-nav-bar-container{
+  display: none;
+  height: auto;
+  height: auto;
+  width: 25vw;
+  position: fixed;
+  right: 0;
+  border: 1px solid black;
+  flex-direction: column;
+  background-color: var(--second-color);
+}
+.media-paths{
+  color: white;
+  background: none;
+  height: 5vh;
+  height: 5dvh;
+  text-align: center;
+  align-content: center;
+  border-top: 1px solid white;
+}
+.media-paths:hover{
+  background-color: var(--primary-color);
+}
+.media-paths:active{
+  color: gray;
+}
+.media-paths:focus{
+  outline: none;
+  color: white;
+}
+
+@media screen and (min-width: 800px){
+  .media-nav-bar-container{
+    display: none;
+  }
 }
 
 @media screen and (max-width: 1200px){
@@ -79,5 +140,14 @@ body{
   }
   .media-contacts-container{
     display: block;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .more-options-button{
+    display: flex;
+  }
+  .navagation-paths{
+    display: none;
   }
 }
