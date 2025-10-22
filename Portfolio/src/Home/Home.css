@@ -1,0 +1,51 @@
+
+
+.home-container{
+    width: 100vw;
+    height: 90vh;
+    height: 90dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.content-container{
+    height: 55vh;
+    height: 55dvh;
+    width: 65vw;
+    border: 1px solid var(--primary-color);
+    border-radius: 20px;
+    padding: 3%;
+    display: flex;
+    gap: 10px;
+    border: none;
+
+
+}
+
+.my-image-container{
+    height: auto;
+    width: auto;
+}
+
+.my-image{
+    width: 55vh;
+    height: auto;
+    border-radius: 10px;
+}
+
+.information-container{
+    height: auto;
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.about-me-description{
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+.profile-description{
+    font-size: 1.2em;
+}

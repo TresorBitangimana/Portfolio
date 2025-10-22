@@ -92,6 +92,7 @@ body{
 .span-container span{
   height: 10px;
   width: 40px;
+  border: none;
   border-bottom: 3px solid white;
   display: block;
   background-color: var(--second-color);
@@ -104,7 +105,6 @@ body{
   width: 25vw;
   position: fixed;
   right: 0;
-  border: 1px solid black;
   flex-direction: column;
   background-color: var(--second-color);
 }
