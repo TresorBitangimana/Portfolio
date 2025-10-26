@@ -9,10 +9,10 @@ import { SiHandshake } from "react-icons/si";
 function Contacts(){
     return(
         <div className="contacts" id="contacts">
-            <div className="contact"><FaLinkedin /></div>
-            <div className="contact"><SiHandshake /></div>
-            <div className="contact"><FaInstagram /></div>
-            <div className="contact"><FaFacebookF /></div>
+            <div className="contact"><a href="#"><FaLinkedin /></a></div>
+            <div className="contact"><a href="https://app.joinhandshake.com/profiles/fwtbth"><SiHandshake /></a></div>
+            <div className="contact"><a href="https://www.instagram.com/treasure_1.0.1/"><FaInstagram /></a></div>
+            <div className="contact"><a href="#"><FaFacebookF /></a></div>
         </div>           
     );
 }

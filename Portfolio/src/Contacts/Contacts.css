@@ -9,7 +9,7 @@
     background: none;
 }
 
-.contact{
+.contact a{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,7 +17,7 @@
     border-radius: 10px;
     padding: 6px 15px;
 }
-.contact:hover{
+.contact a:hover{
     cursor: pointer;
     color: var(--primary-color);
     border-color: var(--primary-color);

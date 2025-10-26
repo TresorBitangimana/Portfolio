@@ -12,7 +12,7 @@
 
 .content-container{
     height: auto;
-    width: 65vw;
+    width: auto;
     border: 1px solid var(--primary-color);
     border-radius: 20px;
     padding: 3%;
@@ -41,7 +41,7 @@
 
 .information-container{
     height: auto;
-    width: 100%;
+    width: 80%;
     padding: 10px;
     border-radius: 10px;
     /* border: 1px solid red; */
@@ -50,7 +50,7 @@
 .about-me-description{
     color: var(--primary-color);
     margin-bottom: 20px;
-    font-size: clamp(.3em, 5vw, 4em);
+    font-size: clamp(.3em, 5vw, 3em);
     display: flex;
     justify-content: center;
 }
