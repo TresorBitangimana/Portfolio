@@ -5,7 +5,7 @@ import "./Projects.css"
 function Projects(){
     return(
         <div className="projects-container" id="projects-container">
-            Hello Projects
+            <h1>working on it...</h1>
         </div>
     );
 }
