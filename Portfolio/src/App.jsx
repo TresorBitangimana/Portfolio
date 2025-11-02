@@ -22,7 +22,7 @@ function App() {
   }
 
   return (
-    <Router >
+    <Router basename="/Portfolio">
 
       <nav className="navagation" id="navagation">
         <div className="logo-container" id="logo-container">

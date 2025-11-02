@@ -6,7 +6,7 @@ function Home(){
         <div className="home-container" id="home-container">
             <div className="content-container" id="content-container">
                 <div className="my-image-container" id="my-image-container">
-                    <img src="src/Images/my_image.png" alt="my image" className="my-image" id="my-image" />
+                    <img src="Portfolio/src/Images/my_image.png" alt="my image" className="my-image" id="my-image" />
                 </div>
                 <div className="information-container" id="information-container">
                     <h1 className="about-me-description" id="about-me-description">
