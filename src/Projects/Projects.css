@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.projects{
+    height: auto;
+    min-height: 400px;
+    width: 95%;
+    border: 1px solid var(--border-color);
+    box-shadow: var(--border-color);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.projects h1{
+    margin-bottom: 20px;
+}

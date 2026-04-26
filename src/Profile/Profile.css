@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.profile {
+    height: auto;
+    width: 70%;
+    border: 1px solid var(--border-color);
+    border: none;
+    /* box-shadow: var(--border-shadow); */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-left: 20%;
+}
+
+@media screen and (max-width: 1000px) {
+    .profile {
+        margin: auto;
+        padding-bottom: 10%;
+    }
+}
+
+.profile-picture {
+    height: 300px;
+    width: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+.profile-picture:hover {
+    cursor: pointer;
+    box-shadow: -2px -2px 10px blue;
+}
+
+.my-info {
+    margin-bottom: 40px;
+}
+
+.name {
+    font-family: var(--text-font);
+    color: var(--text-color);
+    font-size: 2em;
+    text-align: center;
+}
+.my-info-about {
+    text-align: center;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact {
+    height: 50px;
+    width: 95%;
+    border: 1px solid var(--border-color);
+    box-shadow: var(--border-shadow);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    user-select: none;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    margin-left: 10px;
+    flex-shrink: 0;
+}
+
+.contact:hover {
+    cursor: pointer;
+    border-color: rgb(108, 108, 108);
+    box-shadow: -2px -2px 15px rgb(117, 135, 161);
+}
+
+.contact a {
+    color: var(--text-color);
+    font-size: 1em;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
